@@ -1,0 +1,10 @@
+import discord
+
+client = discord.Client()
+token = 'OTk5MzEyMjIwODcxNzI5MTky.GXWcN6.iWyJlZ-9cGdmgXphM2FG0Sekt-uoZUmPvhTfbE'
+
+@client.event
+async def on_ready():
+    print('Logged in')
+
+client.run(OTk5MzEyMjIwODcxNzI5MTky.GXWcN6.iWyJlZ-9cGdmgXphM2FG0Sekt-uoZUmPvhTfbE)
